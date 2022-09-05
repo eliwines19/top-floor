@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    color: #fff;
+    background: url("../images/Top-Floor-Background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#full-page {
+    margin: 10pt;
+}
+
+#logo-container {
+    display: flex;
+    justify-content: center;
+    opacity: 0%;
+}
+
+#logo {
+
+}
+
+#navbar {
+}
+
+#nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    font-size: 18pt;
+    display: block;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-size: 20pt;
+    transition: 0.1s ease-in-out;
+}
