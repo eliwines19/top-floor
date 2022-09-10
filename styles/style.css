@@ -44,21 +44,22 @@ body {
 }
 /* fade in effect */
 
-/* #logo-container {
+#logo-container {
     display: flex;
     justify-content: center;
 }
 
 #logo {
 
-} */
+}
 
 #navbar {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 20pt;
 }
 
 #nav-list {
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -66,20 +67,43 @@ body {
 }
 
 .nav-item {
-    float: left;
+    
 }
 
 .nav-link {
-    font-size: 18pt;
+    font-size: 25pt;
     display: block;
     color: rgb(240, 240, 240);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-right: 30pt;
 }
 
 .nav-link:hover {
-    font-size: 20pt;
+    text-decoration: underline;
     transition: 0.1s ease-in-out;
+}
+
+#last-nav-link {
+
+}
+
+#about {
+    border: solid 1px white;
+    width: 100%;
+}
+
+#contact {
+    border: solid 1px white;
+    width: 100%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
 }
