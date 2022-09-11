@@ -49,9 +49,7 @@ body {
     justify-content: center;
     bottom: 0;
     left: 0;
-    /* height: 300px; */
     margin: auto;
-    /* position: absolute; */
     right: 0;
     text-align: center;
     top: 0;
@@ -75,9 +73,9 @@ body {
     overflow: hidden;
 }
 
-.nav-item {
+/* .nav-item {
     
-}
+} */
 
 .nav-link {
     font-size: 25pt;
@@ -93,17 +91,17 @@ body {
     transition: 0.1s ease-in-out;
 }
 
-#about {
+/* #about {
 
-}
+} */
 
-#about-container {
+/* #about-container {
 
-}
+} */
 
-#contact {
+/* #contact {
     
-}
+} */
 
 .header-container {
     display: flex;
