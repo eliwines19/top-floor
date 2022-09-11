@@ -47,10 +47,19 @@ body {
 #logo-container {
     display: flex;
     justify-content: center;
+    bottom: 0;
+    left: 0;
+    /* height: 300px; */
+    margin: auto;
+    /* position: absolute; */
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
 }
 
 #logo {
-
+    max-width: 100%;
 }
 
 #navbar {
