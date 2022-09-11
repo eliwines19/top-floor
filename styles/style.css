@@ -89,13 +89,15 @@ body {
 }
 
 #about {
-    border: solid 1px white;
-    width: 100%;
+
+}
+
+#about-container {
+
 }
 
 #contact {
-    border: solid 1px white;
-    width: 100%;
+    
 }
 
 .header-container {
@@ -104,6 +106,9 @@ body {
 }
 
 .content-container {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     display: flex;
     justify-content: center;
+    margin: 0 50pt;
 }
