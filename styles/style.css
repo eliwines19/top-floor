@@ -126,21 +126,46 @@ body {
 }
 
 #email {
-    text-decoration: none;
     color: #ffffff;
 }
 
 #email:hover {
-    text-decoration: underline;
     color: #88ffe5;
 }
 
 #phone-number {
-    text-decoration: none;
     color: #ffffff;
 }
 
 #phone-number:hover {
-    text-decoration: underline;
     color: #88ffe5;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        margin-bottom: 0;
+    }
+
+    .nav-link {
+        font-size: 20pt;
+    }
+
+    .header-container {
+        margin: 35pt 25pt 0 25pt;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-container h2 {
+        font-size: 18pt;
+    }
+
+    .content-container {
+        margin: 0 10pt;
+    }
+
+    .content-container p {
+        padding: 0 10pt;
+        font-size: 12pt;
+    }
 }
