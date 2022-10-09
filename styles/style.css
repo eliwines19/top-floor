@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    color: #fff;
+    color:rgb(240, 240, 240);
     background: url("../images/Top-Floor-Background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -78,7 +78,7 @@ body {
 } */
 
 .nav-link {
-    font-size: 25pt;
+    font-size: 40pt;
     display: block;
     color: rgb(240, 240, 240);
     text-align: center;
@@ -89,6 +89,8 @@ body {
 .nav-link:hover {
     text-decoration: underline;
     transition: 0.1s ease-in-out;
+    cursor: pointer;
+    color: #88ffe5;
 }
 
 /* #about {
@@ -104,14 +106,41 @@ body {
 } */
 
 .header-container {
-    display: flex;
-    justify-content: center;
+    margin: 100pt 50pt 0 50pt;
+}
+
+.header-container h2 {
+    font-size: 35pt;
 }
 
 .content-container {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    display: flex;
-    justify-content: center;
+    background-color: #000000;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
     margin: 0 50pt;
+}
+
+.content-container p {
+    padding: 0 20pt;
+    font-size: 25pt;
+}
+
+#email {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#email:hover {
+    text-decoration: underline;
+    color: #88ffe5;
+}
+
+#phone-number {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#phone-number:hover {
+    text-decoration: underline;
+    color: #88ffe5;
 }
